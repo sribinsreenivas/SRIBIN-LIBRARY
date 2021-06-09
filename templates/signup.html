@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>SignUp</title>
+    <meta bookname ="generator" content="Bootply" />
+    <meta bookname ="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar navbar-bright navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="./index.html" class="navbar-brand">Home</a>
+            </div>
+            <nav class="collapse navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav">
+                    
+                    <li>
+                        <a href="./index.html">Books</a>
+                    </li>
+                    
+                    <li>
+                        <a href="./authors.html">Authors</a>
+                    </li>
+                    
+                    <li>
+                        <a href="./login.html">Login</a>
+                    </li>
+                    
+      </ul>
+ 
+    </nav>
+  </div>
+</header>
+
+<div id="masthead">  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>SignUp
+                    <p class="lead"></p>
+                    </h1>
+        </div>
+        <div class="col-md-5">
+            <div class="well well-lg">
+                <div class="row">
+                    <div class="col-sm-12">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div><!-- /cont -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-spacer"> </div>
+                </div>
+            </div>
+        </div><!-- /cont -->
+
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="panel">
+                        <div class="panel-body">
+
+                            <!--/stories-->
+                            <div class="row addc">
+                            <form method="POST" action="/signup/add" onsubmit="return validate();">
+                                <div class="form-group row">
+                                    <label for="inputfbookname " class="col-sm-1 col-form-label">First bookname </label>
+                                    <div class="col-sm-4">
+                                      <input type="text" bookname ="fbookname " class="form-control" placeholder="Enter First bookname " required>
+                                    </div>
+                                    <label for="inputlbookname " class="col-sm-1 col-form-label">Last bookname </label>
+                                    <div class="col-sm-4">
+                                      <input type="text" bookname ="lbookname " class="form-control" placeholder="Enter the last bookname " required>
+                                    </div>
+                                  </div>
+                                
+                              <div class="form-group row">
+                                <label for="inputauthorname " class="col-sm-1 col-form-label">authorname </label>
+                                <div class="col-sm-4">
+                                  <input type="authorname " bookname ="authorname " class="form-control" id="authorname " placeholder="Enter authorname " required>
+                                  <span id="error" class="error"></span>
+                                </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="inputPassword" class="col-sm-1 col-form-label">Password</label>
+                                <div class="col-sm-4">
+                                  <span id="password_strength"></span>
+                                  <input type="password" bookname ="password" class="form-control" id="pwd" placeholder="Password" onkeyup="CheckPasswordStrength(this.value)" required>
+                                  <span id="error3" class="error"></span>
+                                </div>
+                                <label for="confirmPassword" class="col-sm-1 col-form-label">Confirm Password</label>
+                                <div class="col-sm-4">
+                                  <input type="password" bookname ="cpassword" class="form-control" id="pwd1" placeholder="Password" required>
+                                  <span id="error4" class="error"></span>
+                                </div>
+                              </div>
+                              <div class="form-group row">
+                                <div class="col-sm-12 offset-sm-2">
+                                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                                </div>
+                            </div>
+      
+                               
+                            </form>
+                            </div>
+          <hr>
+        
+          
+       
+          <!--/stories-->
+          
+          
+          
+        
+          
+        </div>
+      </div>
+                                                                                       
+	                                                
+                                                      
+   	</div><!--/col-12-->
+  </div>
+</div>
+                                                
+                                                                                
+<hr>
+
+<div class="container" id="footer">
+  <div class="row">
+    <div class="col col-sm-12">
+      
+      <h1>Follow Us</h1>
+      <div class="btn-group">
+       <a class="btn btn-twitter btn-lg" href="#"><i class="icon-twitter icon-large"></i> Twitter</a>
+	   <a class="btn btn-facebook btn-lg" href="#"><i class="icon-facebook icon-large"></i> Facebook</a>
+	   <a class="btn btn-google-plus btn-lg" href="#"><i class="icon-google-plus icon-large"></i> Google+</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="list-inline">
+          <li><i class="icon-facebook icon-2x"></i></li>
+          <li><i class="icon-twitter icon-2x"></i></li>
+          <li><i class="icon-google-plus icon-2x"></i></li>
+          <li><i class="icon-pinterest icon-2x"></i></li>
+        </ul>
+        
+      </div>
+
+    </div>
+  </div>
+</footer>
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+	</body>
+</html>
